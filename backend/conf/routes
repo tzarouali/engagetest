@@ -1,0 +1,7 @@
+
+
+GET         /app/expenses        @controllers.ExpensesController.findAllExpenses()
+
+POST        /app/expenses        @controllers.ExpensesController.addExpense()
+
+
